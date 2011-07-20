@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C83E37CB13D6539B0014243D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83E37CA13D6539B0014243D /* UIKit.framework */; };
+		C83E37CD13D6539B0014243D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83E37CC13D6539B0014243D /* Foundation.framework */; };
+		C83E37CF13D6539B0014243D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83E37CE13D6539B0014243D /* CoreGraphics.framework */; };
+		C83E37D513D6539C0014243D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C83E37D313D6539C0014243D /* InfoPlist.strings */; };
+		C83E37D713D6539C0014243D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E37D613D6539C0014243D /* main.m */; };
+		C83E37DB13D6539C0014243D /* iHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E37DA13D6539C0014243D /* iHelperAppDelegate.m */; };
+		C83E37DE13D6539C0014243D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83E37DC13D6539C0014243D /* MainWindow.xib */; };
+		C83E37E113D6539C0014243D /* iHelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E37E013D6539C0014243D /* iHelperViewController.m */; };
+		C83E37E413D6539C0014243D /* iHelperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83E37E213D6539C0014243D /* iHelperViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C83E37C613D6539B0014243D /* iHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83E37CA13D6539B0014243D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C83E37CC13D6539B0014243D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C83E37CE13D6539B0014243D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C83E37D213D6539C0014243D /* iHelper-Info.plist */ = {isa = PBXFileReference; path = "iHelper-Info.plist"; sourceTree = "<group>"; };
+		C83E37D413D6539C0014243D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C83E37D613D6539C0014243D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C83E37D813D6539C0014243D /* iHelper-Prefix.pch */ = {isa = PBXFileReference; path = "iHelper-Prefix.pch"; sourceTree = "<group>"; };
+		C83E37D913D6539C0014243D /* iHelperAppDelegate.h */ = {isa = PBXFileReference; path = iHelperAppDelegate.h; sourceTree = "<group>"; };
+		C83E37DA13D6539C0014243D /* iHelperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHelperAppDelegate.m; sourceTree = "<group>"; };
+		C83E37DD13D6539C0014243D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C83E37DF13D6539C0014243D /* iHelperViewController.h */ = {isa = PBXFileReference; path = iHelperViewController.h; sourceTree = "<group>"; };
+		C83E37E013D6539C0014243D /* iHelperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHelperViewController.m; sourceTree = "<group>"; };
+		C83E37E313D6539C0014243D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iHelperViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83E37C313D6539B0014243D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E37CB13D6539B0014243D /* UIKit.framework in Frameworks */,
+				C83E37CD13D6539B0014243D /* Foundation.framework in Frameworks */,
+				C83E37CF13D6539B0014243D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C83E37BB13D6539B0014243D = {
+			isa = PBXGroup;
+			children = (
+				C83E37D013D6539B0014243D /* iHelper */,
+				C83E37C913D6539B0014243D /* Frameworks */,
+				C83E37C713D6539B0014243D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C83E37C713D6539B0014243D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83E37C613D6539B0014243D /* iHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C83E37C913D6539B0014243D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C83E37CA13D6539B0014243D /* UIKit.framework */,
+				C83E37CC13D6539B0014243D /* Foundation.framework */,
+				C83E37CE13D6539B0014243D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83E37D013D6539B0014243D /* iHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C83E37D913D6539C0014243D /* iHelperAppDelegate.h */,
+				C83E37DA13D6539C0014243D /* iHelperAppDelegate.m */,
+				C83E37DC13D6539C0014243D /* MainWindow.xib */,
+				C83E37DF13D6539C0014243D /* iHelperViewController.h */,
+				C83E37E013D6539C0014243D /* iHelperViewController.m */,
+				C83E37E213D6539C0014243D /* iHelperViewController.xib */,
+				C83E37D113D6539C0014243D /* Supporting Files */,
+			);
+			path = iHelper;
+			sourceTree = "<group>";
+		};
+		C83E37D113D6539C0014243D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C83E37D213D6539C0014243D /* iHelper-Info.plist */,
+				C83E37D313D6539C0014243D /* InfoPlist.strings */,
+				C83E37D613D6539C0014243D /* main.m */,
+				C83E37D813D6539C0014243D /* iHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83E37C513D6539B0014243D /* iHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83E37E713D6539C0014243D /* Build configuration list for PBXNativeTarget "iHelper" */;
+			buildPhases = (
+				C83E37C213D6539B0014243D /* Sources */,
+				C83E37C313D6539B0014243D /* Frameworks */,
+				C83E37C413D6539B0014243D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHelper;
+			productName = iHelper;
+			productReference = C83E37C613D6539B0014243D /* iHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83E37BD13D6539B0014243D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = OneZeroWare;
+			};
+			buildConfigurationList = C83E37C013D6539B0014243D /* Build configuration list for PBXProject "iHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C83E37BB13D6539B0014243D;
+			productRefGroup = C83E37C713D6539B0014243D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83E37C513D6539B0014243D /* iHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C83E37C413D6539B0014243D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E37D513D6539C0014243D /* InfoPlist.strings in Resources */,
+				C83E37DE13D6539C0014243D /* MainWindow.xib in Resources */,
+				C83E37E413D6539C0014243D /* iHelperViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83E37C213D6539B0014243D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E37D713D6539C0014243D /* main.m in Sources */,
+				C83E37DB13D6539C0014243D /* iHelperAppDelegate.m in Sources */,
+				C83E37E113D6539C0014243D /* iHelperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C83E37D313D6539C0014243D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83E37D413D6539C0014243D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C83E37DC13D6539C0014243D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83E37DD13D6539C0014243D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C83E37E213D6539C0014243D /* iHelperViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83E37E313D6539C0014243D /* en */,
+			);
+			name = iHelperViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C83E37E513D6539C0014243D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C83E37E613D6539C0014243D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C83E37E813D6539C0014243D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHelper/iHelper-Prefix.pch";
+				INFOPLIST_FILE = "iHelper/iHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C83E37E913D6539C0014243D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHelper/iHelper-Prefix.pch";
+				INFOPLIST_FILE = "iHelper/iHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83E37C013D6539B0014243D /* Build configuration list for PBXProject "iHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83E37E513D6539C0014243D /* Debug */,
+				C83E37E613D6539C0014243D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83E37E713D6539C0014243D /* Build configuration list for PBXNativeTarget "iHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83E37E813D6539C0014243D /* Debug */,
+				C83E37E913D6539C0014243D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C83E37BD13D6539B0014243D /* Project object */;
+}
