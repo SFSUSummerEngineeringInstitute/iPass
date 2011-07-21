@@ -16,23 +16,93 @@
 		C83E37DE13D6539C0014243D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83E37DC13D6539C0014243D /* MainWindow.xib */; };
 		C83E37E113D6539C0014243D /* iHelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E37E013D6539C0014243D /* iHelperViewController.m */; };
 		C83E37E413D6539C0014243D /* iHelperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83E37E213D6539C0014243D /* iHelperViewController.xib */; };
+		C873381813D7F06B00807CE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C873381713D7F06B00807CE7 /* QuartzCore.framework */; };
+		C873394A13D8283A00807CE7 /* areaCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393913D8283A00807CE7 /* areaCircle.png */; };
+		C873394B13D8283A00807CE7 /* areaCube.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393A13D8283A00807CE7 /* areaCube.png */; };
+		C873394C13D8283A00807CE7 /* areaCylinder.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393B13D8283A00807CE7 /* areaCylinder.png */; };
+		C873394D13D8283A00807CE7 /* areaSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393C13D8283A00807CE7 /* areaSquare.png */; };
+		C873394E13D8283A00807CE7 /* areaTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393D13D8283A00807CE7 /* areaTriangle.png */; };
+		C873394F13D8283A00807CE7 /* darkBlueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393E13D8283A00807CE7 /* darkBlueCircle.png */; };
+		C873395013D8283A00807CE7 /* greenCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873393F13D8283A00807CE7 /* greenCircle.png */; };
+		C873395113D8283A00807CE7 /* magentaCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394013D8283A00807CE7 /* magentaCircle.png */; };
+		C873395213D8283A00807CE7 /* paperBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394113D8283A00807CE7 /* paperBackground.png */; };
+		C873395313D8283A00807CE7 /* perimeterCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394213D8283A00807CE7 /* perimeterCircle.png */; };
+		C873395413D8283A00807CE7 /* perimeterCube.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394313D8283A00807CE7 /* perimeterCube.png */; };
+		C873395513D8283A00807CE7 /* perimeterSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394413D8283A00807CE7 /* perimeterSquare.png */; };
+		C873395613D8283A00807CE7 /* perimeterTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394513D8283A00807CE7 /* perimeterTriangle.png */; };
+		C873395713D8283A00807CE7 /* spaceCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394613D8283A00807CE7 /* spaceCircle.png */; };
+		C873395813D8283A00807CE7 /* surfaceAreaCube.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394713D8283A00807CE7 /* surfaceAreaCube.png */; };
+		C873395913D8283A00807CE7 /* volumeCube.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394813D8283A00807CE7 /* volumeCube.png */; };
+		C873395A13D8283A00807CE7 /* volumeCylinder.png in Resources */ = {isa = PBXBuildFile; fileRef = C873394913D8283A00807CE7 /* volumeCylinder.png */; };
+		C873395F13D8284F00807CE7 /* MySickassAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C873395C13D8284F00807CE7 /* MySickassAppViewController.m */; };
+		C873396013D8284F00807CE7 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C873395E13D8284F00807CE7 /* ShapeView.m */; };
+		C873396213D8285A00807CE7 /* MySickassAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C873396113D8285A00807CE7 /* MySickassAppViewController.xib */; };
+		C873396713D82A7300807CE7 /* inverse.png in Resources */ = {isa = PBXBuildFile; fileRef = C873396413D82A7300807CE7 /* inverse.png */; };
+		C873396813D82A7300807CE7 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C873396513D82A7300807CE7 /* normal.png */; };
+		C873396913D82A7300807CE7 /* theorem.png in Resources */ = {isa = PBXBuildFile; fileRef = C873396613D82A7300807CE7 /* theorem.png */; };
+		C873396C13D82B4800807CE7 /* TrigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C873396B13D82B4800807CE7 /* TrigViewController.m */; };
+		C873396E13D82B5800807CE7 /* TrigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C873396D13D82B5800807CE7 /* TrigViewController.xib */; };
+		C873397013D82C1D00807CE7 /* TOP1.png in Resources */ = {isa = PBXBuildFile; fileRef = C873396F13D82C1C00807CE7 /* TOP1.png */; };
+		C873397413D82C6800807CE7 /* iHelper3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C873397313D82C6800807CE7 /* iHelper3ViewController.m */; };
+		C873397613D82C7100807CE7 /* iHelper3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C873397513D82C7100807CE7 /* iHelper3ViewController.xib */; };
+		C873397813D82E2500807CE7 /* calc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C873397713D82E2500807CE7 /* calc1.jpg */; };
+		C873397A13D8309B00807CE7 /* BOTTOM1.png in Resources */ = {isa = PBXBuildFile; fileRef = C873397913D8309B00807CE7 /* BOTTOM1.png */; };
+		C873397C13D8318200807CE7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C873397B13D8318100807CE7 /* Icon@2x.png */; };
+		C873397E13D831C500807CE7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C873397D13D831C500807CE7 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C83E37C613D6539B0014243D /* iHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83E37C613D6539B0014243D /* iPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83E37CA13D6539B0014243D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C83E37CC13D6539B0014243D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C83E37CE13D6539B0014243D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C83E37D213D6539C0014243D /* iHelper-Info.plist */ = {isa = PBXFileReference; path = "iHelper-Info.plist"; sourceTree = "<group>"; };
+		C83E37D213D6539C0014243D /* iHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHelper-Info.plist"; sourceTree = "<group>"; };
 		C83E37D413D6539C0014243D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C83E37D613D6539C0014243D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C83E37D813D6539C0014243D /* iHelper-Prefix.pch */ = {isa = PBXFileReference; path = "iHelper-Prefix.pch"; sourceTree = "<group>"; };
-		C83E37D913D6539C0014243D /* iHelperAppDelegate.h */ = {isa = PBXFileReference; path = iHelperAppDelegate.h; sourceTree = "<group>"; };
+		C83E37D813D6539C0014243D /* iPass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPass-Prefix.pch"; sourceTree = "<group>"; };
+		C83E37D913D6539C0014243D /* iHelperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHelperAppDelegate.h; sourceTree = "<group>"; };
 		C83E37DA13D6539C0014243D /* iHelperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHelperAppDelegate.m; sourceTree = "<group>"; };
 		C83E37DD13D6539C0014243D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C83E37DF13D6539C0014243D /* iHelperViewController.h */ = {isa = PBXFileReference; path = iHelperViewController.h; sourceTree = "<group>"; };
+		C83E37DF13D6539C0014243D /* iHelperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHelperViewController.h; sourceTree = "<group>"; };
 		C83E37E013D6539C0014243D /* iHelperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHelperViewController.m; sourceTree = "<group>"; };
 		C83E37E313D6539C0014243D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iHelperViewController.xib; sourceTree = "<group>"; };
+		C873381713D7F06B00807CE7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C873393913D8283A00807CE7 /* areaCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaCircle.png; sourceTree = "<group>"; };
+		C873393A13D8283A00807CE7 /* areaCube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaCube.png; sourceTree = "<group>"; };
+		C873393B13D8283A00807CE7 /* areaCylinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaCylinder.png; sourceTree = "<group>"; };
+		C873393C13D8283A00807CE7 /* areaSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaSquare.png; sourceTree = "<group>"; };
+		C873393D13D8283A00807CE7 /* areaTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaTriangle.png; sourceTree = "<group>"; };
+		C873393E13D8283A00807CE7 /* darkBlueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkBlueCircle.png; sourceTree = "<group>"; };
+		C873393F13D8283A00807CE7 /* greenCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenCircle.png; sourceTree = "<group>"; };
+		C873394013D8283A00807CE7 /* magentaCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magentaCircle.png; sourceTree = "<group>"; };
+		C873394113D8283A00807CE7 /* paperBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperBackground.png; sourceTree = "<group>"; };
+		C873394213D8283A00807CE7 /* perimeterCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perimeterCircle.png; sourceTree = "<group>"; };
+		C873394313D8283A00807CE7 /* perimeterCube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perimeterCube.png; sourceTree = "<group>"; };
+		C873394413D8283A00807CE7 /* perimeterSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perimeterSquare.png; sourceTree = "<group>"; };
+		C873394513D8283A00807CE7 /* perimeterTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perimeterTriangle.png; sourceTree = "<group>"; };
+		C873394613D8283A00807CE7 /* spaceCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceCircle.png; sourceTree = "<group>"; };
+		C873394713D8283A00807CE7 /* surfaceAreaCube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surfaceAreaCube.png; sourceTree = "<group>"; };
+		C873394813D8283A00807CE7 /* volumeCube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeCube.png; sourceTree = "<group>"; };
+		C873394913D8283A00807CE7 /* volumeCylinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeCylinder.png; sourceTree = "<group>"; };
+		C873395B13D8284F00807CE7 /* MySickassAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySickassAppViewController.h; sourceTree = "<group>"; };
+		C873395C13D8284F00807CE7 /* MySickassAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySickassAppViewController.m; sourceTree = "<group>"; };
+		C873395D13D8284F00807CE7 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		C873395E13D8284F00807CE7 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		C873396113D8285A00807CE7 /* MySickassAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySickassAppViewController.xib; sourceTree = "<group>"; };
+		C873396413D82A7300807CE7 /* inverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inverse.png; sourceTree = "<group>"; };
+		C873396513D82A7300807CE7 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		C873396613D82A7300807CE7 /* theorem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theorem.png; sourceTree = "<group>"; };
+		C873396A13D82B4800807CE7 /* TrigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigViewController.h; sourceTree = "<group>"; };
+		C873396B13D82B4800807CE7 /* TrigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigViewController.m; sourceTree = "<group>"; };
+		C873396D13D82B5800807CE7 /* TrigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigViewController.xib; sourceTree = "<group>"; };
+		C873396F13D82C1C00807CE7 /* TOP1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TOP1.png; sourceTree = "<group>"; };
+		C873397213D82C6800807CE7 /* iHelper3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHelper3ViewController.h; sourceTree = "<group>"; };
+		C873397313D82C6800807CE7 /* iHelper3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHelper3ViewController.m; sourceTree = "<group>"; };
+		C873397513D82C7100807CE7 /* iHelper3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iHelper3ViewController.xib; sourceTree = "<group>"; };
+		C873397713D82E2500807CE7 /* calc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calc1.jpg; sourceTree = "<group>"; };
+		C873397913D8309B00807CE7 /* BOTTOM1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BOTTOM1.png; sourceTree = "<group>"; };
+		C873397B13D8318100807CE7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C873397D13D831C500807CE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C873381813D7F06B00807CE7 /* QuartzCore.framework in Frameworks */,
 				C83E37CB13D6539B0014243D /* UIKit.framework in Frameworks */,
 				C83E37CD13D6539B0014243D /* Foundation.framework in Frameworks */,
 				C83E37CF13D6539B0014243D /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +123,7 @@
 		C83E37BB13D6539B0014243D = {
 			isa = PBXGroup;
 			children = (
+				C873381713D7F06B00807CE7 /* QuartzCore.framework */,
 				C83E37D013D6539B0014243D /* iHelper */,
 				C83E37C913D6539B0014243D /* Frameworks */,
 				C83E37C713D6539B0014243D /* Products */,
@@ -61,7 +133,7 @@
 		C83E37C713D6539B0014243D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C83E37C613D6539B0014243D /* iHelper.app */,
+				C83E37C613D6539B0014243D /* iPass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,12 +151,19 @@
 		C83E37D013D6539B0014243D /* iHelper */ = {
 			isa = PBXGroup;
 			children = (
+				C873397113D82C4A00807CE7 /* Theorem */,
+				C873396313D82A3900807CE7 /* Trig functions */,
+				C873393713D8280F00807CE7 /* Formulas */,
 				C83E37D913D6539C0014243D /* iHelperAppDelegate.h */,
 				C83E37DA13D6539C0014243D /* iHelperAppDelegate.m */,
 				C83E37DC13D6539C0014243D /* MainWindow.xib */,
 				C83E37DF13D6539C0014243D /* iHelperViewController.h */,
 				C83E37E013D6539C0014243D /* iHelperViewController.m */,
 				C83E37E213D6539C0014243D /* iHelperViewController.xib */,
+				C873397913D8309B00807CE7 /* BOTTOM1.png */,
+				C873397B13D8318100807CE7 /* Icon@2x.png */,
+				C873397D13D831C500807CE7 /* Icon.png */,
+				C873397713D82E2500807CE7 /* calc1.jpg */,
 				C83E37D113D6539C0014243D /* Supporting Files */,
 			);
 			path = iHelper;
@@ -96,17 +175,70 @@
 				C83E37D213D6539C0014243D /* iHelper-Info.plist */,
 				C83E37D313D6539C0014243D /* InfoPlist.strings */,
 				C83E37D613D6539C0014243D /* main.m */,
-				C83E37D813D6539C0014243D /* iHelper-Prefix.pch */,
+				C83E37D813D6539C0014243D /* iPass-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C873393713D8280F00807CE7 /* Formulas */ = {
+			isa = PBXGroup;
+			children = (
+				C873393913D8283A00807CE7 /* areaCircle.png */,
+				C873393A13D8283A00807CE7 /* areaCube.png */,
+				C873393B13D8283A00807CE7 /* areaCylinder.png */,
+				C873393C13D8283A00807CE7 /* areaSquare.png */,
+				C873393D13D8283A00807CE7 /* areaTriangle.png */,
+				C873393E13D8283A00807CE7 /* darkBlueCircle.png */,
+				C873393F13D8283A00807CE7 /* greenCircle.png */,
+				C873394013D8283A00807CE7 /* magentaCircle.png */,
+				C873394113D8283A00807CE7 /* paperBackground.png */,
+				C873394213D8283A00807CE7 /* perimeterCircle.png */,
+				C873394313D8283A00807CE7 /* perimeterCube.png */,
+				C873394413D8283A00807CE7 /* perimeterSquare.png */,
+				C873394513D8283A00807CE7 /* perimeterTriangle.png */,
+				C873394613D8283A00807CE7 /* spaceCircle.png */,
+				C873394713D8283A00807CE7 /* surfaceAreaCube.png */,
+				C873394813D8283A00807CE7 /* volumeCube.png */,
+				C873394913D8283A00807CE7 /* volumeCylinder.png */,
+				C873395B13D8284F00807CE7 /* MySickassAppViewController.h */,
+				C873395C13D8284F00807CE7 /* MySickassAppViewController.m */,
+				C873396113D8285A00807CE7 /* MySickassAppViewController.xib */,
+				C873395D13D8284F00807CE7 /* ShapeView.h */,
+				C873395E13D8284F00807CE7 /* ShapeView.m */,
+			);
+			name = Formulas;
+			sourceTree = "<group>";
+		};
+		C873396313D82A3900807CE7 /* Trig functions */ = {
+			isa = PBXGroup;
+			children = (
+				C873396413D82A7300807CE7 /* inverse.png */,
+				C873396513D82A7300807CE7 /* normal.png */,
+				C873396613D82A7300807CE7 /* theorem.png */,
+				C873396F13D82C1C00807CE7 /* TOP1.png */,
+				C873396A13D82B4800807CE7 /* TrigViewController.h */,
+				C873396B13D82B4800807CE7 /* TrigViewController.m */,
+				C873396D13D82B5800807CE7 /* TrigViewController.xib */,
+			);
+			name = "Trig functions";
+			sourceTree = "<group>";
+		};
+		C873397113D82C4A00807CE7 /* Theorem */ = {
+			isa = PBXGroup;
+			children = (
+				C873397213D82C6800807CE7 /* iHelper3ViewController.h */,
+				C873397313D82C6800807CE7 /* iHelper3ViewController.m */,
+				C873397513D82C7100807CE7 /* iHelper3ViewController.xib */,
+			);
+			name = Theorem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C83E37C513D6539B0014243D /* iHelper */ = {
+		C83E37C513D6539B0014243D /* iPass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C83E37E713D6539C0014243D /* Build configuration list for PBXNativeTarget "iHelper" */;
+			buildConfigurationList = C83E37E713D6539C0014243D /* Build configuration list for PBXNativeTarget "iPass" */;
 			buildPhases = (
 				C83E37C213D6539B0014243D /* Sources */,
 				C83E37C313D6539B0014243D /* Frameworks */,
@@ -116,9 +248,9 @@
 			);
 			dependencies = (
 			);
-			name = iHelper;
+			name = iPass;
 			productName = iHelper;
-			productReference = C83E37C613D6539B0014243D /* iHelper.app */;
+			productReference = C83E37C613D6539B0014243D /* iPass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +261,7 @@
 			attributes = {
 				ORGANIZATIONNAME = OneZeroWare;
 			};
-			buildConfigurationList = C83E37C013D6539B0014243D /* Build configuration list for PBXProject "iHelper" */;
+			buildConfigurationList = C83E37C013D6539B0014243D /* Build configuration list for PBXProject "iPass" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +273,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C83E37C513D6539B0014243D /* iHelper */,
+				C83E37C513D6539B0014243D /* iPass */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +286,34 @@
 				C83E37D513D6539C0014243D /* InfoPlist.strings in Resources */,
 				C83E37DE13D6539C0014243D /* MainWindow.xib in Resources */,
 				C83E37E413D6539C0014243D /* iHelperViewController.xib in Resources */,
+				C873394A13D8283A00807CE7 /* areaCircle.png in Resources */,
+				C873394B13D8283A00807CE7 /* areaCube.png in Resources */,
+				C873394C13D8283A00807CE7 /* areaCylinder.png in Resources */,
+				C873394D13D8283A00807CE7 /* areaSquare.png in Resources */,
+				C873394E13D8283A00807CE7 /* areaTriangle.png in Resources */,
+				C873394F13D8283A00807CE7 /* darkBlueCircle.png in Resources */,
+				C873395013D8283A00807CE7 /* greenCircle.png in Resources */,
+				C873395113D8283A00807CE7 /* magentaCircle.png in Resources */,
+				C873395213D8283A00807CE7 /* paperBackground.png in Resources */,
+				C873395313D8283A00807CE7 /* perimeterCircle.png in Resources */,
+				C873395413D8283A00807CE7 /* perimeterCube.png in Resources */,
+				C873395513D8283A00807CE7 /* perimeterSquare.png in Resources */,
+				C873395613D8283A00807CE7 /* perimeterTriangle.png in Resources */,
+				C873395713D8283A00807CE7 /* spaceCircle.png in Resources */,
+				C873395813D8283A00807CE7 /* surfaceAreaCube.png in Resources */,
+				C873395913D8283A00807CE7 /* volumeCube.png in Resources */,
+				C873395A13D8283A00807CE7 /* volumeCylinder.png in Resources */,
+				C873396213D8285A00807CE7 /* MySickassAppViewController.xib in Resources */,
+				C873396713D82A7300807CE7 /* inverse.png in Resources */,
+				C873396813D82A7300807CE7 /* normal.png in Resources */,
+				C873396913D82A7300807CE7 /* theorem.png in Resources */,
+				C873396E13D82B5800807CE7 /* TrigViewController.xib in Resources */,
+				C873397013D82C1D00807CE7 /* TOP1.png in Resources */,
+				C873397613D82C7100807CE7 /* iHelper3ViewController.xib in Resources */,
+				C873397813D82E2500807CE7 /* calc1.jpg in Resources */,
+				C873397A13D8309B00807CE7 /* BOTTOM1.png in Resources */,
+				C873397C13D8318200807CE7 /* Icon@2x.png in Resources */,
+				C873397E13D831C500807CE7 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +327,10 @@
 				C83E37D713D6539C0014243D /* main.m in Sources */,
 				C83E37DB13D6539C0014243D /* iHelperAppDelegate.m in Sources */,
 				C83E37E113D6539C0014243D /* iHelperViewController.m in Sources */,
+				C873395F13D8284F00807CE7 /* MySickassAppViewController.m in Sources */,
+				C873396013D8284F00807CE7 /* ShapeView.m in Sources */,
+				C873396C13D82B4800807CE7 /* TrigViewController.m in Sources */,
+				C873397413D82C6800807CE7 /* iHelper3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iHelper/iHelper-Prefix.pch";
+				GCC_PREFIX_HEADER = "iHelper/iPass-Prefix.pch";
 				INFOPLIST_FILE = "iHelper/iHelper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iPass;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -258,9 +422,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iHelper/iHelper-Prefix.pch";
+				GCC_PREFIX_HEADER = "iHelper/iPass-Prefix.pch";
 				INFOPLIST_FILE = "iHelper/iHelper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iPass;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -268,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C83E37C013D6539B0014243D /* Build configuration list for PBXProject "iHelper" */ = {
+		C83E37C013D6539B0014243D /* Build configuration list for PBXProject "iPass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C83E37E513D6539C0014243D /* Debug */,
@@ -277,13 +441,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C83E37E713D6539C0014243D /* Build configuration list for PBXNativeTarget "iHelper" */ = {
+		C83E37E713D6539C0014243D /* Build configuration list for PBXNativeTarget "iPass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C83E37E813D6539C0014243D /* Debug */,
 				C83E37E913D6539C0014243D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
